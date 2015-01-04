@@ -1,0 +1,60 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="RobotoEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="CheckBoxAppTheme" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    
+    <style name="base.Theme.ActionButton.Overflow" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_more_vert_white_24dp</item>
+    </style>
+
+    <style name="life.Theme.Base" parent="Theme.AppCompat">
+        <item name="android:listSelector">@drawable/list_selector</item>
+        <item name="android:windowBackground">@drawable/bg</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:checkboxStyle">@style/CheckBoxAppTheme</item>
+        <item name="actionOverflowButtonStyle">@style/base.Theme.ActionButton.Overflow</item>
+        <item name="colorPrimary">#E91047</item>   <!-- #3f51b5 -->
+        <item name="colorAccent">#E91047</item>   <!-- #1a237e -->
+        <item name="colorPrimaryDark">#20000000</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorControlNormal">#ffffff</item>    <!-- toggle颜色 -->
+        <item name="colorControlActivated">#fff</item>
+        <item name="colorControlHighlight">#fff</item>
+        <item name="colorSwitchThumbNormal">#b0b0b0</item>
+    </style>
+
+    <style name="life.Theme.Overview" parent="life.Theme" >
+
+    </style>
+      <style name="life.Theme" parent="life.Theme.Base">
+
+    </style>
+</resources>

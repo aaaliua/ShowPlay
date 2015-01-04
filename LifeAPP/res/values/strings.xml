@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Xiami</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menuAboutContact">Contact developer</string>
+    <string name="settings_name">Settings</string>
+    <string name="drawerMyMovies">My Movies</string>
+    <string name="drawerMyTvShows">My TV Shows</string>
+    <string name="drawerOnlineMovies">Online Movies</string>
+    <string name="drawerWebVideos">Web Videos</string>
+    <string name="installed_media_apps">Media apps</string>
+    <string name="greeting">Welcome</string>
+    <string name="sign_in_with_trakt">Sign in with Trakt.tv</string>
+    <string name="logged_in_as">Logged in as %s</string>
+    <string name="chooserMovies">Movies</string>
+    <string name="chooserTVShows">TV shows</string>
+    
+    <string name="pressBackToExit">Press Back-button again to exit</string>
+    <string name="description_search">搜索</string> 
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    
+    <string name="choiceAllMovies">All movies</string>
+    <string name="choiceOffline">Offline copies</string>
+    <string name="choiceFavorites">Favorites</string>
+    <string name="choiceGenres">Genres</string>
+    <string name="choiceCollections">Collections</string>
+    <string name="choiceNewReleases">New releases</string>
+    <string name="chooserWatchList">Watchlist</string>
+    <string name="choiceWatchedMovies">Watched movies</string>
+    <string name="choiceUnwatchedMovies">Unwatched movies</string>
+</resources>

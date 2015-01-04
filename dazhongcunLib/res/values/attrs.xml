@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="circulprogress">
+        <attr name="mdimes" format="float"></attr>
+        <attr name="mcolor" format="color"></attr>
+        <attr name="mangel" format="integer"></attr>
+        <attr name="msweep" format="integer"></attr>
+    </declare-styleable>
+    <!--类似google play 引导  -->
+      <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+    
+    <!-- 重写了LinearLayout  定义了一些属性 -->
+    <declare-styleable name="WPLinearLayoutSizeBound">
+        <attr name="maxWidth" format="dimension" />
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+    
+     <!--
+     Edittext的自定义属性
+    -->
+    <declare-styleable name="WPTypeface">
+        <attr name="fontVariation" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="light" value="1"/>
+        </attr>
+    </declare-styleable>
+    
+    <!--变幻actionbar  -->
+      <declare-styleable name="ActionView">
+        <attr name="av_color" format="color"/>
+        <attr name="av_action" format="enum">
+            <enum name="drawer" value="0"/>
+            <enum name="back" value="1"/>
+            <enum name="close" value="2"/>
+            <enum name="plus" value="3"/>
+        </attr>
+    </declare-styleable>
+    <!--圆形imageview的自定义参数  -->
+      <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    
+      
+      <declare-styleable name="FancyButtonsAttrs">
+        <attr name="defaultColor" format="color" />
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textFont" format="string" />
+        <attr name="iconFont" format="string" />
+        <attr name="textSize" format="dimension" />
+        <attr name="iconResource" format="integer" />
+        <attr name="fontIconResource" format="string" />
+        <attr name="fontIconSize" format="dimension" />
+        <attr name="iconPosition" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="top" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+        <attr name="borderColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="focusColor" format="color" />
+        <attr name="radius" format="dimension" />
+        <attr name="horizontal_line" format="boolean" />
+    </declare-styleable>
+      
+      
+      
+      <declare-styleable name="ButteryProgressBar">
+        <attr name="barColor" format="color" />
+        <attr name="barHeight" format="dimension" />
+        <attr name="detentWidth" format="dimension" />
+	</declare-styleable>
+	
+    
+    
+      <declare-styleable name="SmoothProgressBar">
+        <attr name="spbStyle" format="reference"/>
+        <attr name="spb_color" format="color"/>
+        <attr name="spb_stroke_width" format="dimension"/>
+        <attr name="spb_stroke_separator_length" format="dimension"/>
+        <attr name="spb_sections_count" format="integer"/>
+        <attr name="spb_speed" format="float"/>
+        <attr name="spb_progressiveStart_speed" format="float"/>
+        <attr name="spb_progressiveStop_speed" format="float"/>
+        <attr name="spb_interpolator" format="enum">
+            <enum name="spb_interpolator_accelerate" value="0"/>
+            <enum name="spb_interpolator_linear" value="1"/>
+            <enum name="spb_interpolator_acceleratedecelerate" value="2"/>
+            <enum name="spb_interpolator_decelerate" value="3"/>
+        </attr>
+        <attr name="spb_reversed" format="boolean"/>
+        <attr name="spb_mirror_mode" format="boolean"/>
+        <attr name="spb_colors" format="reference"/>
+        <attr name="spb_progressiveStart_activated" format="boolean"/>
+        <attr name="spb_background" format="reference"/>
+        <attr name="spb_generate_background_with_colors" format="boolean"/>
+        <attr name="spb_gradients" format="boolean"/>
+    </declare-styleable>
+      
+        <declare-styleable name="PullRefreshLayout">
+        <attr name="type" format="enum">
+            <enum name="circles" value="0" />
+            <enum name="water_drop" value="1" />
+            <enum name="ring" value="2" />
+        </attr>
+        <attr name="colors" format="reference" />
+    </declare-styleable>
+    
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:butterbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content" > -->
+
+ <merge  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:butterbar="http://schemas.android.com/apk/res-auto">
+    <ProgressBar
+        android:id="@+id/sync_trigger"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:max="100"
+        android:progress="100"
+        android:progressDrawable="@drawable/progressbar_solid_holo"
+        android:visibility="gone" />
+
+    <!--
+         <com.aaaliua.actionbarpulltorefresh.ButteryProgressBar
+        android:id="@+id/progress_pull"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="top"
+        butterbar:barColor="@android:color/holo_blue_dark"
+        butterbar:barHeight="2.5dp"
+        android:visibility="gone" />    -->
+
+    <smoothprogressbar.SmoothProgressBar
+        android:id="@+id/progress_pull"
+        style="@style/GPlusProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:layout_gravity="top"
+        android:indeterminate="true"
+        android:visibility="gone" />
+<!-- /LinearLayout> -->
+</merge>
