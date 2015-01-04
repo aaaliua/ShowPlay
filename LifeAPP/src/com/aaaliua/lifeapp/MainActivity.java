@@ -13,9 +13,11 @@ import com.aaaliua.application.AppApplication;
 import com.aaaliua.base.activity.BaseActionbarActivity;
 import com.aaaliua.fragment.ContentFragment;
 import com.aaaliua.function.MenuItem;
+import com.aaaliua.utils.ImageViewUtils;
 import com.aaaliua.utils.Lib;
 import com.aaaliua.utils.TypefaceUtils;
 import com.aaaliua.utils.ViewUtils;
+import com.aaaliua.view.CircleImageView;
 import com.squareup.picasso.Picasso;
 
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -268,10 +270,10 @@ public class MainActivity extends BaseActionbarActivity {
 				R.drawable.ic_cloud_grey600_24dp));
 
 		mMenuItems.add(new MenuItem(MenuItem.SEPARATOR));
-		mMenuItems.add(new MenuItem("我的最爱", -1, MenuItem.SUB_HEADER, null));
-		mMenuItems.add(new MenuItem("腾讯视频", -1, MenuItem.SECTION, null, qq,
+		mMenuItems.add(new MenuItem("时光旅行", -1, MenuItem.SUB_HEADER, null));
+		mMenuItems.add(new MenuItem("我的店铺", -1, MenuItem.SECTION, null, qq,
 				R.drawable.ic_local_movies_grey600_24dp));
-		mMenuItems.add(new MenuItem("百度云", -1, MenuItem.SECTION, null, baidu,
+		mMenuItems.add(new MenuItem("时光轴", -1, MenuItem.SECTION, null, baidu,
 				R.drawable.ic_tv_grey600_24dp));
 
 		// Third party applications
@@ -429,7 +431,7 @@ public class MainActivity extends BaseActionbarActivity {
 						.getString(TRAKT_USERNAME, "");
 				final ImageView backgroundImage = ((ImageView) convertView
 						.findViewById(R.id.userCover));
-				final ImageView userImage = ((ImageView) convertView
+				final CircleImageView userImage = ((CircleImageView) convertView
 						.findViewById(R.id.userPhoto));
 				final ImageView plusIcon = ((ImageView) convertView
 						.findViewById(R.id.plus_icon));
@@ -468,8 +470,10 @@ public class MainActivity extends BaseActionbarActivity {
 					userImage.setImageDrawable(dr);
 				} else {
 					// 头像
-					userImage.setVisibility(View.GONE);
+//					userImage.setVisibility(View.GONE);
+					
 				}
+//				userImage.setImageBitmap(ImageViewUtils.getCroppedBitmap(new BitmapFactory().decodeResource(getResources(), R.drawable.photo)));
 
 				// Background image
 				if (!TextUtils.isEmpty(mBackdropPath))

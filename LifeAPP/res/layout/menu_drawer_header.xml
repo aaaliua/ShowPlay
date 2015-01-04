@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/personalizedArea"
     android:layout_width="match_parent"
     android:layout_height="208dp"
@@ -20,14 +21,24 @@
         android:layout_gravity="bottom"
         android:orientation="vertical" >
 
-        <ImageView
+        <!-- <ImageView
             android:id="@+id/userPhoto"
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:src="@drawable/unknown_user" />
+            android:src="@drawable/unknown_user" /> -->
 
+        <com.aaaliua.view.CircleImageView
+            android:id="@+id/userPhoto"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/photo"
+            android:scaleType="centerCrop"
+            app:border_color="@color/pressed"
+            app:border_width="1dp" />
         <LinearLayout
             android:id="@+id/name_area"
             android:padding="16dp"

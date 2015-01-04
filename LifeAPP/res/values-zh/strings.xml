@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="menuAboutContact">Contact developer</string>
-    <string name="settings_name">Settings</string>
-    <string name="drawerMyMovies">我的电影</string>
-    <string name="drawerMyTvShows">我的TV电视</string>
-    <string name="drawerOnlineMovies">在线视频</string>
-    <string name="drawerWebVideos">网页视频</string>
+    <string name="menuAboutContact">关于我们</string>
+    <string name="settings_name">设置</string>
+    <string name="drawerMyMovies">我的预约</string>
+    <string name="drawerMyTvShows">AKG美发旅行</string>
+    <string name="drawerOnlineMovies">在线预约</string>
+    <string name="drawerWebVideos">店铺介绍</string>
     <string name="installed_media_apps">多媒体APP</string>
     <string name="greeting">Welcome</string>
     <string name="sign_in_with_trakt">Sign in with Trakt.tv</string>
     <string name="logged_in_as">Logged in as %s</string>
-    <string name="chooserMovies">电影</string>
-    <string name="chooserTVShows">TV 电视</string>
-    
+    <string name="chooserMovies">预约</string>
+    <string name="chooserTVShows">介绍</string>
     
     
     <string name="drawer_open">Open navigation drawer</string>
